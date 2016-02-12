@@ -42,9 +42,6 @@ else
 		expect
 		git
 
-		# maven
-		maven
-
 		# dependencies
 		python
 		g++
@@ -67,6 +64,7 @@ else
 
 	bash /vagrant/provision/mysql.sh
 	bash /vagrant/provision/node.sh
+	bash /vagrant/provision/sails.sh
 	bash /vagrant/provision/tools.sh
 	bash /vagrant/provision/db-import.sh
 
